@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './NavBar.css';
 
 
 function NavBar() {
@@ -8,16 +9,16 @@ function NavBar() {
         <nav className="navbar">
             {/* this handles the image or logo to the left */}
             <div className="navbar-container">
-                <img src="./images/logoone.jpeg" alt=""/>
+                <img className="logo" src="./images/logoone.jpeg" alt=""/>
             </div>
             {/* this div handles the links to the right */}
-            <div>
-                <Link to="/">Home</Link>
-                <Link to="/investment">Investment</Link>
-                <Link to="/consultancy">Consultancy</Link>
-                <Link to="/poket moni">Poket Moni</Link>
-                <Link to="/education">Education</Link>
-                <Link to="/business support">Business Support</Link>
+            <div className="navbar-links">
+                <Link className="navbar-item-link" to="/">Home</Link>
+                <Link className="navbar-item-link" to="/investment">Investment</Link>
+                <Link className="navbar-item-link" to="/consultancy">Consultancy</Link>
+                <Link className="navbar-item-link" to="/poket moni">Poket Moni</Link>
+                <Link className="navbar-item-link" to="/education">Education</Link>
+                <Link className="navbar-item-link" to="/business support">Business Support</Link>
             </div>
         </nav>
     );
