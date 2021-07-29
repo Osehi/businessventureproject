@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 
-function NavBar() {
+const NavBar= () =>  {
+    
     return(
         // this holds the navBar container
         <nav className="navbar">
