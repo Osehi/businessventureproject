@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
 import Hero from './components/hero/HeroView';
+import SectionHeader from './components/investment/SectionHeader';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavBar/>
       
       <Hero/>
+      <SectionHeader/>
       
     </div>
   );
