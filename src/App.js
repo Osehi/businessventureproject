@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Hero from './components/hero/HeroView';
 import SectionHeader from './components/investment/SectionHeader';
+import InvestCatalogue from './components/investment/InvestCatalogue';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <NavBar/>
       
       <Hero/>
-      <SectionHeader/>
+      <InvestCatalogue/>
       
     </div>
   );
