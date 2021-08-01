@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Hero from './components/hero/HeroView';
 import SectionHeader from './components/investment/SectionHeader';
 import InvestCatalogue from './components/investment/InvestCatalogue';
+import InvestmentTab from './components/investment_tab/InvestmentTab';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <NavBar/>
       
       <Hero/>
-      <InvestCatalogue/>
+      <InvestmentTab/>
       
     </div>
   );

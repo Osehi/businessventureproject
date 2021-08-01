@@ -20,12 +20,12 @@ const SectionHeader =() => {
 
     const FirstLine = styled.div`
             height:4px;
-            background-color:blue;
+            background-color:black;
             width: 100%;
     `
 
     const SecondLine = styled.div`
-            background-color:red;
+            background-color:black;
             width: 100%;
             height: 4px;
 
