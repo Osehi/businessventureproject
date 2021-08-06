@@ -5,6 +5,8 @@ import Hero from './components/hero/HeroView';
 import SectionHeader from './components/investment/SectionHeader';
 import InvestCatalogue from './components/investment/InvestCatalogue';
 import InvestmentTab from './components/investment_tab/InvestmentTab';
+import ConsultancyTab from './components/consultancy_tab/ConsultancyTab';
+import PoketMoniTab from './components/poketmon-_tab/PokeMoniTab';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       
       <Hero/>
       <InvestmentTab/>
+      <ConsultancyTab/>
+      <PoketMoniTab/>
       
     </div>
   );
