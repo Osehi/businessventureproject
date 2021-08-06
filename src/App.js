@@ -8,6 +8,7 @@ import InvestmentTab from './components/investment_tab/InvestmentTab';
 import ConsultancyTab from './components/consultancy_tab/ConsultancyTab';
 import PoketMoniTab from './components/poketmon-_tab/PokeMoniTab';
 import EducationTab from './components/education_tab/EducationTab';
+import BusinessSupport from './components/business_support_tab/BusinessSupport';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <ConsultancyTab/>
       <PoketMoniTab/>
       <EducationTab/>
-      
+      <BusinessSupport/>
     </div>
   );
 }

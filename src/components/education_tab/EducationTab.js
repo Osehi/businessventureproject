@@ -18,7 +18,7 @@ const EducationTab = () => {
             height: 60%;
             padding: 0px;
             margin-top:100px;
-            padding-left:40px;
+            padding-left:10px;
         }
     `
     const TextSection = styled.div`

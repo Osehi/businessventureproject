@@ -10,7 +10,7 @@ const PoketMoniTab = () => {
     const ImageSet = styled.div`
         .dress {
             width: 550px;
-            height: 80%;
+            height: 70%;
             padding: 100px;
         }
     `
