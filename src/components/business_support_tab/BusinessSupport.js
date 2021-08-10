@@ -4,47 +4,9 @@ import Button from '../button/Button';
 import ImageInfo from '../image_info/ImageInfo';
 import Typography from '../typography/Typography';
 
-const BusinessSupport = () => {
+import {TextSelection,SupportButton, ImagePosition, SetContent} from './style'
 
-    const SetContent = styled.div`
-        .setContent {
-            display: flex;
-        }
-    `
-
-    const ImagePosition = styled.div`
-        .position {
-            width: 550px;
-            height: 60%;
-            padding: 100px;
-        }
-    `
-        const SupportButton = styled.div`
-            .supportBtn {
-                border-radius: 5px;
-                width:200px;
-                margin-bottom: 40px;
-                color:white;
-                background-color: black;
-            }
-        `
-        const TextSelection = styled.div`
-            margin-top: 100px;
-
-            .support {
-                text-transform: uppercase;
-            }
-
-            .supportContent {
-                font-weight: 400;
-                font-size: 20px;
-                max-width: 80%;
-            }
-
-        `
-
-
-    return(
+const BusinessSupport = () => (
         <SetContent>
         <div className="setContent">
             <ImagePosition>
@@ -70,6 +32,5 @@ const BusinessSupport = () => {
         </div>
         </SetContent>
     )
-};
 
 export default BusinessSupport;
