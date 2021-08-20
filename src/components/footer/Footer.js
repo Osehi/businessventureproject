@@ -10,7 +10,7 @@ import Typography from '../typography/Typography';
 const Footer = () => {
 
     const FooterContainer = styled.div`
-            border: solid red 2px;
+            background-color: #a8f2f7;
             display: flex;
             justify-content: space-between;
             `
@@ -21,7 +21,7 @@ const Footer = () => {
     `
 
     const FirstItem = styled.div`
-        border: solid blue 2px;
+        padding-top: 40px;
         width: 50%;
         padding-left:100px;
     `
@@ -43,6 +43,7 @@ const Footer = () => {
     `
 
     const QuickLinks = styled.div`
+        padding-top: 40px;
         .quicklinks-cont{
             display: flex;
             flex-direction: column;
